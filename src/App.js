@@ -1,10 +1,11 @@
-import { useEffect } from "react";
+import Counter from './components/Counter';
+import Todo from './components/Todo';
 
 function App() {
-  return (<>
-    <div>App</div>
-  </>
-  );
+    return <div>
+        <Todo />
+        {/* <Counter /> */}
+    </div>
 }
 
 export default App;
